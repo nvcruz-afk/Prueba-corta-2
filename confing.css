@@ -1,0 +1,71 @@
+.casa{
+    border: 1px solid black;
+    width: 550px;
+    height: 400px;
+    margin: auto;
+
+    display:grid;
+    grid-template-columns: 65% 1fr;
+    grid-template-rows:1fr 1fr ;
+}
+
+.segundo-nivel{
+    background-image: url("../prueba\ corta\ #2/");
+    background-size: 50%;
+
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+}
+.ventana{
+    width: 90%;
+    height: 90%;
+    background-color: aquamarine;
+}
+
+.primer-nivel{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.puerta{
+    width: 80px;
+    height: 130px;
+    background-color: brown;
+
+}
+.garage{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.porton{
+    width: 90%;
+    height: 80%;
+    background-color: blanchedalmond;
+
+}
+.techo{
+    display: flex;
+    align-items: end;
+
+}
+.pared{
+    width: 100px;
+    height:25% ;
+    background-color: grey;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+
+
+}
+.pared div{
+    border: 1px solid black;
+}
